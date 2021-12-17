@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+.env.*
+build
+
+# Test coverage files
+**/coverage/* 
+
+# JetBrains project files
+.idea/

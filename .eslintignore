@@ -1,0 +1,13 @@
+# eslint ignores hidden files by default
+!.*.json
+!.*.js
+**/node_modules
+**/dist
+
+# eslint ignores GLSL shaders
+*.glsl
+*.vert
+*.frag
+
+# eslint ignores copied/pasted files
+src/components/PLYLoader.js
